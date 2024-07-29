@@ -1,0 +1,21 @@
+{
+  "name": "genie-theme",
+  "displayName": ".",
+  "description": "A Genie theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Genie Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Genie Theme-color-theme.json"
+      }
+    ]
+  }
+}
