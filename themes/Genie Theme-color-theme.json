@@ -38,6 +38,7 @@
       "editorHoverWidget.border": "#00BFFF",
       "editorHoverWidget.foreground": "#B0B0FF",
       "editorHoverWidget.highlightForeground": "#FFD700",
+      "editorGroupHeader.tabsBackground": "#0F0F2A",
       "commandPalette.background": "#0F0F2A",
       "commandPalette.foreground": "#B0B0FF",
       "commandPalette.border": "#00BFFF",
