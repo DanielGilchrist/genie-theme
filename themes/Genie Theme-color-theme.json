@@ -111,7 +111,7 @@
               "entity.name.function"
           ],
           "settings": {
-              "foreground": "#BA55D3" // Medium purple for functions
+              "foreground": "#e486fc" // purple for functions
           }
       },
       {
