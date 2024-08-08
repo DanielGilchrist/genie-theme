@@ -66,6 +66,7 @@
     "quickInputList.focusForeground": "{{darkBackground}}"
   },
   "tokenColors": [
+    // Comments
     {
       "scope": [
         "comment",
@@ -78,6 +79,7 @@
         "fontStyle": "italic"
       }
     },
+    // Keywords
     {
       "scope": [
         "keyword",
@@ -89,6 +91,7 @@
         "foreground": "{{red}}"
       }
     },
+    // Constants
     {
       "scope": [
         "constant",
@@ -104,6 +107,7 @@
         "foreground": "{{lampGold}}"
       }
     },
+    // Strings
     {
       "scope": [
         "string",
@@ -117,6 +121,7 @@
         "foreground": "{{brightGenieBlue}}"
       }
     },
+    // Variables
     {
       "scope": [
         "variable",
@@ -128,12 +133,14 @@
         "foreground": "{{brighterGenieBlue}}"
       }
     },
+    // Functions
     {
       "scope": ["function", "entity.name.function"],
       "settings": {
         "foreground": "{{purple}}"
       }
     },
+    // Types
     {
       "scope": [
         "entity.name.type",
