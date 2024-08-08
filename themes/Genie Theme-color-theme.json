@@ -8,8 +8,8 @@
     "editor.lineHighlightBackground": "#1E1E3F",
     "editor.selectionBackground": "#003366", // Dark blue for selection
     "editor.selectionHighlightBackground": "#003366",
-    "editorIndentGuide.background": "#1E1E3F",
-    "editorIndentGuide.activeBackground": "#00BFFF",
+    "editorIndentGuide.background1": "#1E1E3F",
+    "editorIndentGuide.activeBackground1": "#00BFFF",
     "editorWhitespace.foreground": "#003366",
     "activityBar.background": "#0F0F2A",
     "sideBar.background": "#0F0F2A",
@@ -48,7 +48,7 @@
     "commandPalette.itemSelectedForeground": "#000000"
   },
   "tokenColors": [
-    // Generic Comment Styles
+    // Comment Styles
     {
       "scope": [
         "comment",
@@ -61,7 +61,7 @@
         "fontStyle": "italic"
       }
     },
-    // Generic Keyword Styles
+    // Keyword Styles
     {
       "scope": [
         "keyword",
@@ -73,7 +73,7 @@
         "foreground": "#FF007F" // Red for keywords
       }
     },
-    // Generic Constant Styles
+    // Constant Styles
     {
       "scope": [
         "constant",
@@ -81,13 +81,15 @@
         "constant.numeric",
         "constant.character",
         "constant.other",
-        "entity.name.constant"
+        "entity.name.constant",
+        "variable.other.constant",
+        "support.constant"
       ],
       "settings": {
         "foreground": "#FFD700" // Lamp gold for constants
       }
     },
-    // Generic String Styles
+    // String Styles
     {
       "scope": [
         "string",
@@ -101,7 +103,7 @@
         "foreground": "#00BFFF" // Genie blue for strings
       }
     },
-    // Generic Variable Styles
+    // Variable Styles
     {
       "scope": [
         "variable",
@@ -113,14 +115,14 @@
         "foreground": "#1E90FF" // Brighter Genie blue for variables
       }
     },
-    // Generic Function Styles
+    // Function Styles
     {
       "scope": ["function", "entity.name.function"],
       "settings": {
         "foreground": "#e486fc" // Purple for functions
       }
     },
-    // Generic Type Styles
+    // Type Styles
     {
       "scope": [
         "entity.name.type",
@@ -129,7 +131,10 @@
         "entity.name.namespace",
         "storage.type.class",
         "storage.type.struct",
-        "entity.name.enum"
+        "entity.name.enum",
+        "storage.type.annotation",
+        "entity.other.inherited-class",
+        "entity.name.type.class"
       ],
       "settings": {
         "foreground": "#FFD700" // Lamp gold for types
