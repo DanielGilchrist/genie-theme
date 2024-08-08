@@ -25,7 +25,7 @@ const variables = template.templateVariables
 delete template.templateVariables
 
 const templateString = JSON.stringify(template, null, 2)
-const themeOutput = replaceColors(templateString, variables)
+const themeOutput = replaceColors(templateString, variables) + "\n"
 
 const outputPath = path.join(__dirname, "../themes/genie-theme.json")
 fs.writeFileSync(outputPath, themeOutput)
