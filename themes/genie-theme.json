@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/colour-theme.json",
   "name": "Genie Theme",
   "type": "dark",
   "colors": {

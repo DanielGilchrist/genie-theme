@@ -1,6 +1,8 @@
 {
+  "$schema": "../schemas/colour-theme.json",
+
   // Custom properties that get stripped by `scripts/build.js`
-  "templateVariables": {
+  "colourVariables": {
     /*
       Usage:
         "editor.background": "{{darkBackground}}"
@@ -19,7 +21,6 @@
     "red": "#FF007F",
     "darkerPurple": "#8A2BE2"
   },
-
   // VSCode theme properties
   "name": "Genie Theme",
   "type": "dark",

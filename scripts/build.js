@@ -17,12 +17,12 @@ const replaceColors = (template, variables) => {
   return output
 }
 
-const templatePath = path.join(__dirname, "../templates/genie-theme.jsonc")
+const templatePath = path.join(__dirname, "../templates/genie-theme.json")
 const templateJSONString = removeComments(fs.readFileSync(templatePath, "utf8"))
 const template = JSON.parse(templateJSONString)
 
-const variables = template.templateVariables
-delete template.templateVariables
+const variables = template.colourVariables
+delete template.colourVariables
 
 const templateString = JSON.stringify(template, null, 2)
 const themeOutput = replaceColors(templateString, variables) + "\n"
