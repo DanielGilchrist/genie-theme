@@ -48,466 +48,185 @@
       "commandPalette.itemSelectedForeground": "#000000"
   },
   "tokenColors": [
-      {
-          "scope": [
-              "comment",
-              "comment.block.documentation",
-              "comment.block.documentation keyword",
-              "comment.block.documentation string"
-          ],
-          "settings": {
-              "foreground": "#8A2BE2", // Darker purple for comments
-              "fontStyle": "italic"
-          }
-      },
-      {
-          "scope": [
-              "keyword",
-              "keyword.control",
-              "keyword.operator"
-          ],
-          "settings": {
-              "foreground": "#FF007F" // Red for keywords
-          }
-      },
-      {
-          "scope": [
-              "constant",
-              "constant.language",
-              "constant.numeric",
-              "constant.character",
-              "constant.other"
-          ],
-          "settings": {
-              "foreground": "#FFD700" // Lamp gold for constants
-          }
-      },
-      {
-          "scope": [
-              "string",
-              "string.quoted",
-              "string.quoted.double",
-              "string.quoted.single",
-              "string.template",
-              "string.interpolated"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for strings
-          }
-      },
-      {
-          "scope": [
-              "variable",
-              "variable.other",
-              "variable.parameter"
-          ],
-          "settings": {
-              "foreground": "#1E90FF" // Brighter Genie blue for variables
-          }
-      },
-      {
-          "scope": [
-              "function",
-              "entity.name.function"
-          ],
-          "settings": {
-              "foreground": "#e486fc" // purple for functions
-          }
-      },
-      {
-          "scope": [
-              "markup.heading",
-              "markup.heading entity.name"
-          ],
-          "settings": {
-              "fontStyle": "bold",
-              "foreground": "#FF4500" // Orange for headings
-          }
-      },
-      {
-          "scope": [
-              "markup.bold",
-              "markup.italic",
-              "markup.quote"
-          ],
-          "settings": {
-              "foreground": "#B0B0FF" // Light Genie blue for bold, italic, and quotes
-          }
-      },
-      {
-          "scope": [
-              "markup.underline"
-          ],
-          "settings": {
-              "fontStyle": "underline",
-              "foreground": "#00BFFF" // Genie blue for underlined text
-          }
-      },
-      {
-          "scope": [
-              "markup.strike"
-          ],
-          "settings": {
-              "fontStyle": "strikethrough",
-              "foreground": "#4B0082" // Indigo for strikethrough text
-          }
-      },
-      {
-          "scope": [
-              "markup.quote"
-          ],
-          "settings": {
-              "foreground": "#004080" // Dark blue for quoted text
-          }
-      },
-      {
-          "scope": [
-              "string.other.link.title.markdown"
-          ],
-          "settings": {
-              "foreground": "#BA55D3" // Medium purple for markdown links
-          }
-      },
-      {
-          "scope": [
-              "string.other.link.description.title.markdown"
-          ],
-          "settings": {
-              "foreground": "#BA55D3" // Medium purple for markdown link descriptions
-          }
-      },
-      {
-          "scope": [
-              "string.other.link.anchor.markdown"
-          ],
-          "settings": {
-              "foreground": "#BA55D3" // Medium purple for markdown link anchors
-          }
-      },
-      {
-          "scope": [
-              "markup.raw.block"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for raw blocks
-          }
-      },
-      {
-          "scope": [
-              "markup.fenced_code.block",
-              "markup.fenced_code.block.markdown"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for fenced code blocks
-          }
-      },
-      {
-          "scope": [
-              "markup.fenced_code.block.markdown variable"
-          ],
-          "settings": {
-              "foreground": "#FF4500" // Orange for fenced code block variables
-          }
-      },
-      {
-          "name": "Ruby - Namespaces and Constants",
-          "scope": [
-              "entity.name.namespace.ruby",
-              "entity.name.class.ruby",
-              "entity.name.type.ruby",
-              "entity.name.function.ruby",
-              "constant.language.ruby",
-              "constant.numeric.ruby",
-              "constant.other.symbol.ruby"
-          ],
-          "settings": {
-              "foreground": "#FFD700" // Lamp gold for Ruby namespaces and constants
-          }
-      },
-      {
-          "name": "Ruby - Strings",
-          "scope": [
-              "string.quoted.double.ruby",
-              "string.quoted.single.ruby",
-              "string.quoted.other.literal.ruby",
-              "string.interpolated.ruby"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for Ruby strings
-          }
-      },
-      {
-          "name": "Ruby - Variables",
-          "scope": [
-              "variable.ruby",
-              "variable.other.readwrite.ruby",
-              "variable.parameter.function.ruby",
-              "variable.other.constant.ruby",
-              "variable.other.local.ruby",
-              "variable.other.instance.ruby",
-              "variable.other.global.ruby",
-              "variable.other.readwrite.instance.ruby"
-          ],
-          "settings": {
-              "foreground": "#1E90FF" // Brighter Genie blue for Ruby variables
-          }
-      },
-      {
-          "name": "JavaScript - Keywords",
-          "scope": [
-              "keyword.control.js",
-              "keyword.operator.js",
-              "keyword.js"
-          ],
-          "settings": {
-              "foreground": "#FF007F" // Red for JavaScript keywords
-          }
-      },
-      {
-          "name": "JavaScript - Strings",
-          "scope": [
-              "string.quoted.double.js",
-              "string.quoted.single.js",
-              "string.template.js"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for JavaScript strings
-          }
-      },
-      {
-          "name": "JavaScript - Variables",
-          "scope": [
-              "variable.other.js",
-              "variable.parameter.js"
-          ],
-          "settings": {
-              "foreground": "#1E90FF" // Brighter Genie blue for JavaScript variables
-          }
-      },
-      {
-          "name": "JavaScript - Functions",
-          "scope": [
-              "entity.name.function.js"
-          ],
-          "settings": {
-              "foreground": "#BA55D3" // Medium purple for JavaScript functions
-          }
-      },
-      {
-          "name": "Crystal - Keywords",
-          "scope": [
-              "keyword.control.crystal",
-              "keyword.operator.crystal",
-              "keyword.crystal"
-          ],
-          "settings": {
-              "foreground": "#FF007F" // Red for Crystal keywords
-          }
-      },
-      {
-          "name": "Crystal - Strings",
-          "scope": [
-              "string.quoted.double.crystal",
-              "string.quoted.single.crystal",
-              "string.template.crystal"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for Crystal strings
-          }
-      },
-      {
-          "name": "Crystal - Variables",
-          "scope": [
-              "variable.other.crystal",
-              "variable.parameter.crystal"
-          ],
-          "settings": {
-              "foreground": "#1E90FF" // Brighter Genie blue for Crystal variables
-          }
-      },
-      {
-          "name": "Rust - Keywords",
-          "scope": [
-              "keyword.control.rust",
-              "keyword.operator.rust",
-              "keyword.rust"
-          ],
-          "settings": {
-              "foreground": "#FF007F" // Red for Rust keywords
-          }
-      },
-      {
-          "name": "Rust - Strings",
-          "scope": [
-              "string.quoted.double.rust",
-              "string.quoted.single.rust",
-              "string.template.rust"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for Rust strings
-          }
-      },
-      {
-          "name": "Rust - Variables",
-          "scope": [
-              "variable.other.rust",
-              "variable.parameter.rust"
-          ],
-          "settings": {
-              "foreground": "#1E90FF" // Brighter Genie blue for Rust variables
-          }
-      },
-      {
-          "name": "Go - Keywords",
-          "scope": [
-              "keyword.control.go",
-              "keyword.operator.go",
-              "keyword.go"
-          ],
-          "settings": {
-              "foreground": "#FF007F" // Red for Go keywords
-          }
-      },
-      {
-          "name": "Go - Strings",
-          "scope": [
-              "string.quoted.double.go",
-              "string.quoted.single.go",
-              "string.template.go"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for Go strings
-          }
-      },
-      {
-          "name": "Go - Variables",
-          "scope": [
-              "variable.other.go",
-              "variable.parameter.go"
-          ],
-          "settings": {
-              "foreground": "#1E90FF" // Brighter Genie blue for Go variables
-          }
-      },
-      {
-          "name": "C - Keywords",
-          "scope": [
-              "keyword.control.c",
-              "keyword.operator.c",
-              "keyword.c"
-          ],
-          "settings": {
-              "foreground": "#FF007F" // Red for C keywords
-          }
-      },
-      {
-          "name": "C - Strings",
-          "scope": [
-              "string.quoted.double.c",
-              "string.quoted.single.c",
-              "string.template.c"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for C strings
-          }
-      },
-      {
-          "name": "C - Variables",
-          "scope": [
-              "variable.other.c",
-              "variable.parameter.c"
-          ],
-          "settings": {
-              "foreground": "#1E90FF" // Brighter Genie blue for C variables
-          }
-      },
-      {
-          "name": "C++ - Keywords",
-          "scope": [
-              "keyword.control.cpp",
-              "keyword.operator.cpp",
-              "keyword.cpp"
-          ],
-          "settings": {
-              "foreground": "#FF007F" // Red for C++ keywords
-          }
-      },
-      {
-          "name": "C++ - Strings",
-          "scope": [
-              "string.quoted.double.cpp",
-              "string.quoted.single.cpp",
-              "string.template.cpp"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for C++ strings
-          }
-      },
-      {
-          "name": "C++ - Variables",
-          "scope": [
-              "variable.other.cpp",
-              "variable.parameter.cpp"
-          ],
-          "settings": {
-              "foreground": "#1E90FF" // Brighter Genie blue for C++ variables
-          }
-      },
-      {
-          "name": "HAML - Tags",
-          "scope": [
-              "entity.name.tag.haml"
-          ],
-          "settings": {
-              "foreground": "#FFD700" // Lamp gold for HAML tags
-          }
-      },
-      {
-          "name": "HAML - Attributes",
-          "scope": [
-              "entity.other.attribute-name.haml"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for HAML attributes
-          }
-      },
-      {
-          "name": "HAML - Strings",
-          "scope": [
-              "string.quoted.double.haml",
-              "string.quoted.single.haml"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for HAML strings
-          }
-      },
-      {
-          "name": "ERB - Tags",
-          "scope": [
-              "entity.name.tag.erb"
-          ],
-          "settings": {
-              "foreground": "#FFD700" // Lamp gold for ERB tags
-          }
-      },
-      {
-          "name": "ERB - Attributes",
-          "scope": [
-              "entity.other.attribute-name.erb"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for ERB attributes
-          }
-      },
-      {
-          "name": "ERB - Strings",
-          "scope": [
-              "string.quoted.double.erb",
-              "string.quoted.single.erb"
-          ],
-          "settings": {
-              "foreground": "#00BFFF" // Genie blue for ERB strings
-          }
-      }
-  ]
+    // Generic Comment Styles
+    {
+        "scope": [
+            "comment",
+            "comment.block.documentation",
+            "comment.block.documentation keyword",
+            "comment.block.documentation string"
+        ],
+        "settings": {
+            "foreground": "#8A2BE2", // Darker purple for comments
+            "fontStyle": "italic"
+        }
+    },
+    // Generic Keyword Styles
+    {
+        "scope": [
+            "keyword",
+            "keyword.control",
+            "keyword.operator",
+            "storage.type" // Includes class, struct, etc.
+        ],
+        "settings": {
+            "foreground": "#FF007F" // Red for keywords
+        }
+    },
+    // Generic Constant Styles
+    {
+        "scope": [
+            "constant",
+            "constant.language",
+            "constant.numeric",
+            "constant.character",
+            "constant.other",
+            "entity.name.constant"
+        ],
+        "settings": {
+            "foreground": "#FFD700" // Lamp gold for constants
+        }
+    },
+    // Generic String Styles
+    {
+        "scope": [
+            "string",
+            "string.quoted",
+            "string.quoted.double",
+            "string.quoted.single",
+            "string.template",
+            "string.interpolated"
+        ],
+        "settings": {
+            "foreground": "#00BFFF" // Genie blue for strings
+        }
+    },
+    // Generic Variable Styles
+    {
+        "scope": [
+            "variable",
+            "variable.other",
+            "variable.parameter",
+            "variable.language"
+        ],
+        "settings": {
+            "foreground": "#1E90FF" // Brighter Genie blue for variables
+        }
+    },
+    // Generic Function Styles
+    {
+        "scope": [
+            "function",
+            "entity.name.function"
+        ],
+        "settings": {
+            "foreground": "#e486fc" // Purple for functions
+        }
+    },
+    // Generic Type Styles
+    {
+        "scope": [
+            "entity.name.type",
+            "support.type",
+            "entity.name.class",
+            "entity.name.namespace",
+            "storage.type.class",
+            "storage.type.struct",
+            "entity.name.enum"
+        ],
+        "settings": {
+            "foreground": "#FFD700" // Lamp gold for types
+        }
+    },
+    // Markup Heading Styles
+    {
+        "scope": [
+            "markup.heading",
+            "markup.heading entity.name"
+        ],
+        "settings": {
+            "fontStyle": "bold",
+            "foreground": "#FF4500" // Orange for headings
+        }
+    },
+    // Markup Bold, Italic, and Quote Styles
+    {
+        "scope": [
+            "markup.bold",
+            "markup.italic",
+            "markup.quote"
+        ],
+        "settings": {
+            "foreground": "#B0B0FF" // Light Genie blue for bold, italic, and quotes
+        }
+    },
+    // Markup Underline Styles
+    {
+        "scope": [
+            "markup.underline"
+        ],
+        "settings": {
+            "fontStyle": "underline",
+            "foreground": "#00BFFF" // Genie blue for underlined text
+        }
+    },
+    // Markup Strikethrough Styles
+    {
+        "scope": [
+            "markup.strike"
+        ],
+        "settings": {
+            "fontStyle": "strikethrough",
+            "foreground": "#4B0082" // Indigo for strikethrough text
+        }
+    },
+    // Markup Quote Styles
+    {
+        "scope": [
+            "markup.quote"
+        ],
+        "settings": {
+            "foreground": "#004080" // Dark blue for quoted text
+        }
+    },
+    // Markdown Link Styles
+    {
+        "scope": [
+            "string.other.link.title.markdown",
+            "string.other.link.description.title.markdown",
+            "string.other.link.anchor.markdown"
+        ],
+        "settings": {
+            "foreground": "#BA55D3" // Medium purple for markdown links and anchors
+        }
+    },
+    // Markup Raw Block Styles
+    {
+        "scope": [
+            "markup.raw.block"
+        ],
+        "settings": {
+            "foreground": "#00BFFF" // Genie blue for raw blocks
+        }
+    },
+    // Fenced Code Block Styles
+    {
+        "scope": [
+            "markup.fenced_code.block",
+            "markup.fenced_code.block.markdown"
+        ],
+        "settings": {
+            "foreground": "#00BFFF" // Genie blue for fenced code blocks
+        }
+    },
+    // Fenced Code Block Variable Styles
+    {
+        "scope": [
+            "markup.fenced_code.block.markdown variable"
+        ],
+        "settings": {
+            "foreground": "#FF4500" // Orange for fenced code block variables
+        }
+    }
+]
 }
