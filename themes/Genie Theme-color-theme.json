@@ -25,7 +25,6 @@
     "tab.activeBackground": "#0F0F2A",
     "tab.inactiveBackground": "#1E1E3F",
     "tab.activeBorder": "#FFD700", // Lamp gold for active tab border
-    "tab.inactiveBorder": "#003366",
     "tab.hoverBackground": "#003366",
     "tab.hoverBorder": "#00BFFF",
     "peekViewEditor.background": "#0F0F2A",
@@ -39,13 +38,10 @@
     "editorHoverWidget.foreground": "#B0B0FF",
     "editorHoverWidget.highlightForeground": "#FFD700",
     "editorGroupHeader.tabsBackground": "#0F0F2A",
-    "commandPalette.background": "#0F0F2A",
-    "commandPalette.foreground": "#B0B0FF",
-    "commandPalette.border": "#00BFFF",
-    "commandPalette.itemBackground": "#1E1E3F",
-    "commandPalette.itemHoverBackground": "#003366",
-    "commandPalette.itemSelectedBackground": "#00BFFF",
-    "commandPalette.itemSelectedForeground": "#000000"
+    "quickInput.background": "#0F0F2A",
+    "quickInput.foreground": "#B0B0FF",
+    "quickInputList.focusBackground": "#FFD700",
+    "quickInputList.focusForeground": "#0F0F2A",
   },
   "tokenColors": [
     // Comment Styles
