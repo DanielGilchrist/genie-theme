@@ -1,0 +1,219 @@
+{
+  // Custom properties that get stripped by `scripts/build.js`
+  "templateVariables": {
+    /*
+      Usage:
+        "editor.background": "{{darkBackground}}"
+        "editor.foreground": "{{lightGenieBlue}}"
+    */
+    "darkBackground": "#0F0F2A",
+    "lightGenieBlue": "#B0B0FF",
+    "brightGenieBlue": "#00BFFF",
+    "lampGold": "#FFD700",
+    "orange": "#FF4500",
+    "indigo": "#4B0082",
+    "purple": "#e486fc",
+    "darkBlue": "#003366",
+    "mediumPurple": "#BA55D3",
+    "brighterGenieBlue": "#1E90FF",
+    "red": "#FF007F",
+    "darkerPurple": "#8A2BE2"
+  },
+
+  // VSCode theme properties
+  "name": "Genie Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "{{darkBackground}}",
+    "editor.foreground": "{{lightGenieBlue}}",
+    "editorCursor.foreground": "{{brightGenieBlue}}",
+    "editor.lineHighlightBackground": "#1E1E3F",
+    "editor.selectionBackground": "{{darkBlue}}",
+    "editor.selectionHighlightBackground": "{{darkBlue}}",
+    "editorIndentGuide.background1": "#1E1E3F",
+    "editorIndentGuide.activeBackground1": "{{brightGenieBlue}}",
+    "editorWhitespace.foreground": "{{darkBlue}}",
+    "activityBar.background": "{{darkBackground}}",
+    "sideBar.background": "{{darkBackground}}",
+    "statusBar.background": "#1E1E3F",
+    "titleBar.activeBackground": "{{darkBackground}}",
+    "titleBar.inactiveBackground": "{{darkBackground}}",
+    "titleBar.activeForeground": "{{brightGenieBlue}}",
+    "titleBar.inactiveForeground": "{{darkBlue}}",
+    "input.background": "#1E1E3F",
+    "input.foreground": "{{lightGenieBlue}}",
+    "button.background": "{{lampGold}}",
+    "button.foreground": "#000000",
+    "tab.activeBackground": "{{darkBackground}}",
+    "tab.inactiveBackground": "#1E1E3F",
+    "tab.activeBorder": "{{lampGold}}",
+    "tab.hoverBackground": "{{darkBlue}}",
+    "tab.hoverBorder": "{{brightGenieBlue}}",
+    "peekViewEditor.background": "{{darkBackground}}",
+    "peekViewEditor.matchHighlightBackground": "{{darkBlue}}",
+    "peekViewResult.background": "{{darkBackground}}",
+    "peekViewResult.matchHighlightBackground": "{{darkBlue}}",
+    "peekViewTitle.background": "{{darkBackground}}",
+    "peekViewTitleLabel.foreground": "{{lightGenieBlue}}",
+    "editorHoverWidget.background": "#1E1E3F",
+    "editorHoverWidget.border": "{{brightGenieBlue}}",
+    "editorHoverWidget.foreground": "{{lightGenieBlue}}",
+    "editorHoverWidget.highlightForeground": "{{lampGold}}",
+    "editorGroupHeader.tabsBackground": "{{darkBackground}}",
+    "quickInput.background": "{{darkBackground}}",
+    "quickInput.foreground": "{{lightGenieBlue}}",
+    "quickInputList.focusBackground": "{{lampGold}}",
+    "quickInputList.focusForeground": "{{darkBackground}}"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "comment.block.documentation",
+        "comment.block.documentation keyword",
+        "comment.block.documentation string"
+      ],
+      "settings": {
+        "foreground": "{{darkerPurple}}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.operator",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "{{red}}"
+      }
+    },
+    {
+      "scope": [
+        "constant",
+        "constant.language",
+        "constant.numeric",
+        "constant.character",
+        "constant.other",
+        "entity.name.constant",
+        "variable.other.constant",
+        "support.constant"
+      ],
+      "settings": {
+        "foreground": "{{lampGold}}"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.quoted.double",
+        "string.quoted.single",
+        "string.template",
+        "string.interpolated"
+      ],
+      "settings": {
+        "foreground": "{{brightGenieBlue}}"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "variable.other",
+        "variable.parameter",
+        "variable.language"
+      ],
+      "settings": {
+        "foreground": "{{brighterGenieBlue}}"
+      }
+    },
+    {
+      "scope": ["function", "entity.name.function"],
+      "settings": {
+        "foreground": "{{purple}}"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "support.type",
+        "entity.name.class",
+        "entity.name.namespace",
+        "storage.type.class",
+        "storage.type.struct",
+        "entity.name.enum",
+        "storage.type.annotation",
+        "entity.other.inherited-class",
+        "entity.name.type.class"
+      ],
+      "settings": {
+        "foreground": "{{lampGold}}"
+      }
+    },
+    {
+      "scope": ["markup.heading", "markup.heading entity.name"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "{{orange}}"
+      }
+    },
+    {
+      "scope": ["markup.bold", "markup.italic", "markup.quote"],
+      "settings": {
+        "foreground": "{{lightGenieBlue}}"
+      }
+    },
+    {
+      "scope": ["markup.underline"],
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "{{brightGenieBlue}}"
+      }
+    },
+    {
+      "scope": ["markup.strike"],
+      "settings": {
+        "fontStyle": "strikethrough",
+        "foreground": "{{indigo}}"
+      }
+    },
+    {
+      "scope": ["markup.quote"],
+      "settings": {
+        "foreground": "{{darkBlue}}"
+      }
+    },
+    {
+      "scope": [
+        "string.other.link.title.markdown",
+        "string.other.link.description.title.markdown",
+        "string.other.link.anchor.markdown"
+      ],
+      "settings": {
+        "foreground": "{{mediumPurple}}"
+      }
+    },
+    {
+      "scope": ["markup.raw.block"],
+      "settings": {
+        "foreground": "{{brightGenieBlue}}"
+      }
+    },
+    {
+      "scope": [
+        "markup.fenced_code.block",
+        "markup.fenced_code.block.markdown"
+      ],
+      "settings": {
+        "foreground": "{{brightGenieBlue}}"
+      }
+    },
+    {
+      "scope": ["markup.fenced_code.block.markdown variable"],
+      "settings": {
+        "foreground": "{{orange}}"
+      }
+    }
+  ]
+}

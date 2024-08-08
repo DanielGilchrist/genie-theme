@@ -14,8 +14,11 @@
       {
         "label": "Genie Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Genie Theme-color-theme.json"
+        "path": "./themes/genie-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "node scripts/build.js"
   }
 }
