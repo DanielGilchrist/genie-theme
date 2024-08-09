@@ -6,7 +6,7 @@ const removeComments = (jsonc) =>
     .replace(/\/\/.*$/gm, '') // single-line comments
     .replace(/\/\*[\s\S]*?\*\//g, '') // multi-line comments
 
-const replaceColors = (template, variables) => {
+const replaceColours = (template, variables) => {
   let output = template
 
   for (const [key, value] of Object.entries(variables)) {
@@ -25,7 +25,7 @@ const variables = template.colourVariables
 delete template.colourVariables
 
 const templateString = JSON.stringify(template, null, 2)
-const themeOutput = replaceColors(templateString, variables) + "\n"
+const themeOutput = replaceColours(templateString, variables) + "\n"
 
 const outputPath = path.join(__dirname, "../themes/genie-theme.json")
 fs.writeFileSync(outputPath, themeOutput)
