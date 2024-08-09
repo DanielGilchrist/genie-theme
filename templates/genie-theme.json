@@ -5,66 +5,66 @@
   "colourVariables": {
     /*
       Usage:
-        "editor.background": "{{darkBackground}}"
+        "editor.background": "{{genieBackground}}"
         "editor.foreground": "{{lightGenieBlue}}"
     */
-    "darkBackground": "#0F0F2A",
+    "genieBackground": "#0F0F2A",
     "lightGenieBlue": "#B0B0FF",
     "brightGenieBlue": "#00BFFF",
-    "lampGold": "#FFD700",
+    "genieLampGold": "#FFD700",
     "orange": "#FF4500",
     "indigo": "#4B0082",
     "purple": "#e486fc",
-    "darkBlue": "#003366",
-    "mediumPurple": "#BA55D3",
+    "darkGenieBlue": "#003366",
+    "mediumGeniePurple": "#BA55D3",
     "brighterGenieBlue": "#1E90FF",
-    "red": "#FF007F",
-    "darkerPurple": "#8A2BE2"
+    "brightGenieRed": "#FF007F",
+    "brightGeniePurple": "#8A2BE2"
   },
   // VSCode theme properties
   "name": "Genie Theme",
   "type": "dark",
   "colors": {
-    "editor.background": "{{darkBackground}}",
+    "editor.background": "{{genieBackground}}",
     "editor.foreground": "{{lightGenieBlue}}",
     "editorCursor.foreground": "{{brightGenieBlue}}",
     "editor.lineHighlightBackground": "#1E1E3F",
-    "editor.selectionBackground": "{{darkBlue}}",
-    "editor.selectionHighlightBackground": "{{darkBlue}}",
+    "editor.selectionBackground": "{{darkGenieBlue}}",
+    "editor.selectionHighlightBackground": "{{darkGenieBlue}}",
     "editorIndentGuide.background1": "#1E1E3F",
     "editorIndentGuide.activeBackground1": "{{brightGenieBlue}}",
-    "editorWhitespace.foreground": "{{darkBlue}}",
-    "activityBar.background": "{{darkBackground}}",
-    "sideBar.background": "{{darkBackground}}",
+    "editorWhitespace.foreground": "{{darkGenieBlue}}",
+    "activityBar.background": "{{genieBackground}}",
+    "sideBar.background": "{{genieBackground}}",
     "statusBar.background": "#1E1E3F",
-    "titleBar.activeBackground": "{{darkBackground}}",
-    "titleBar.inactiveBackground": "{{darkBackground}}",
+    "titleBar.activeBackground": "{{genieBackground}}",
+    "titleBar.inactiveBackground": "{{genieBackground}}",
     "titleBar.activeForeground": "{{brightGenieBlue}}",
-    "titleBar.inactiveForeground": "{{darkBlue}}",
+    "titleBar.inactiveForeground": "{{darkGenieBlue}}",
     "input.background": "#1E1E3F",
     "input.foreground": "{{lightGenieBlue}}",
-    "button.background": "{{lampGold}}",
+    "button.background": "{{genieLampGold}}",
     "button.foreground": "#000000",
-    "tab.activeBackground": "{{darkBackground}}",
+    "tab.activeBackground": "{{genieBackground}}",
     "tab.inactiveBackground": "#1E1E3F",
-    "tab.activeBorder": "{{lampGold}}",
-    "tab.hoverBackground": "{{darkBlue}}",
+    "tab.activeBorder": "{{genieLampGold}}",
+    "tab.hoverBackground": "{{darkGenieBlue}}",
     "tab.hoverBorder": "{{brightGenieBlue}}",
-    "peekViewEditor.background": "{{darkBackground}}",
-    "peekViewEditor.matchHighlightBackground": "{{darkBlue}}",
-    "peekViewResult.background": "{{darkBackground}}",
-    "peekViewResult.matchHighlightBackground": "{{darkBlue}}",
-    "peekViewTitle.background": "{{darkBackground}}",
+    "peekViewEditor.background": "{{genieBackground}}",
+    "peekViewEditor.matchHighlightBackground": "{{darkGenieBlue}}",
+    "peekViewResult.background": "{{genieBackground}}",
+    "peekViewResult.matchHighlightBackground": "{{darkGenieBlue}}",
+    "peekViewTitle.background": "{{genieBackground}}",
     "peekViewTitleLabel.foreground": "{{lightGenieBlue}}",
     "editorHoverWidget.background": "#1E1E3F",
     "editorHoverWidget.border": "{{brightGenieBlue}}",
     "editorHoverWidget.foreground": "{{lightGenieBlue}}",
-    "editorHoverWidget.highlightForeground": "{{lampGold}}",
-    "editorGroupHeader.tabsBackground": "{{darkBackground}}",
-    "quickInput.background": "{{darkBackground}}",
+    "editorHoverWidget.highlightForeground": "{{genieLampGold}}",
+    "editorGroupHeader.tabsBackground": "{{genieBackground}}",
+    "quickInput.background": "{{genieBackground}}",
     "quickInput.foreground": "{{lightGenieBlue}}",
-    "quickInputList.focusBackground": "{{lampGold}}",
-    "quickInputList.focusForeground": "{{darkBackground}}"
+    "quickInputList.focusBackground": "{{genieLampGold}}",
+    "quickInputList.focusForeground": "{{genieBackground}}"
   },
   "tokenColors": [
     // Comments
@@ -76,7 +76,7 @@
         "comment.block.documentation string"
       ],
       "settings": {
-        "foreground": "{{darkerPurple}}",
+        "foreground": "{{brightGeniePurple}}",
         "fontStyle": "italic"
       }
     },
@@ -89,7 +89,7 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "{{red}}"
+        "foreground": "{{brightGenieRed}}"
       }
     },
     // Constants
@@ -105,7 +105,7 @@
         "support.constant"
       ],
       "settings": {
-        "foreground": "{{lampGold}}"
+        "foreground": "{{genieLampGold}}"
       }
     },
     // Strings
@@ -156,7 +156,7 @@
         "entity.name.type.class"
       ],
       "settings": {
-        "foreground": "{{lampGold}}"
+        "foreground": "{{genieLampGold}}"
       }
     },
     {
@@ -189,7 +189,7 @@
     {
       "scope": ["markup.quote"],
       "settings": {
-        "foreground": "{{darkBlue}}"
+        "foreground": "{{darkGenieBlue}}"
       }
     },
     {
@@ -199,7 +199,7 @@
         "string.other.link.anchor.markdown"
       ],
       "settings": {
-        "foreground": "{{mediumPurple}}"
+        "foreground": "{{mediumGeniePurple}}"
       }
     },
     {
